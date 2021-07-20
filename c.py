@@ -1,4 +1,5 @@
 #troca a cor das palavras
+#change the color of the words
 black = '\033[30m'
 red = '\033[31m'
 green = '\033[32m'
@@ -10,6 +11,7 @@ grey = '\033[37m'
 white = '\033[97m'
 
 #troca a cor que está em volta das palavras
+#changes the color around the words
 ablack = '\033[40m'
 ared = '\033[41m'
 agreen = '\033[42m'
@@ -20,14 +22,18 @@ acyan = '\033[46m'
 agrey = '\033[47m'
 awhite = '\033[107m'
 
-#Deixar palavras em negrito
+#colocar palavras em negrito
+#bold words
 bold = '\033[1m'
 
-#Deixar as palavras sublinhadas
+#colocar palavras como sublinhadas
+#underline the words
 under = '\033[4m'
 
-#Deixar as cores invertidas
+#Deixa ás cores invertidas
+#Leaves in inverted colors
 rever = '\033[7m'
 
-#deixar o padrão do python
+#Limpar os comandos acima
+#Clear the above commands
 clean = '\033[m'
